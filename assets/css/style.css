@@ -664,7 +664,7 @@ ul.location-ul li {
   -o-border-radius: 30px;
   z-index: -1;
 }
-
+/* 
 @keyframes bit-animation {
   0% {
     transform: scale(1);
@@ -693,7 +693,7 @@ ul.location-ul li {
   animation: bit-animation2 2s ease-out infinite;
   border-radius: 1px 60px 0px 60px;
   -webkit-animation: bit-animation2 1.5s ease-out infinite;
-  /* -webkit-border-radius: 30px; */
+  /* -webkit-border-radius: 30px; 
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
@@ -714,3 +714,6 @@ ul.location-ul li {
     -o-transform: scale(1.1);
   }
 }
+ */
+
+/* =======================animation==================== */
