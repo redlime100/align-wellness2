@@ -724,27 +724,34 @@ ul.location-ul li {
 
 /* =======================animation==================== */
 .swiper-slide-active .slider-img img {
-    width: 100%;
+  width: 100%;
 }
 
 .slider-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 575px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 575px;
 }
 
 .swiper-slide-active .sl-content-inner h2 {
-    right: 0;
-    opacity: 1;
+  right: 0;
+  opacity: 1;
 }
 
 .swiper-slide-active .sl-content-inner p {
   right: 0;
   opacity: 1;
-}.sl-content-inner p {
-    position: relative;
-    right: -170px;
-    transition: 1.5s;
-    opacity: 0;
+}
+.sl-content-inner p {
+  position: relative;
+  right: -170px;
+  transition: 1.5s;
+  opacity: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .slider-img {
+    height: fit-content;
+  }
 }
