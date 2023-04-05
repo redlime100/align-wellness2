@@ -22,11 +22,11 @@
         padding: 60px 30px;
     }
     .footer-logo {
-        padding-bottom: 50px;
+        padding-bottom: 28px;
     }
     
     .footer-menu {
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
     .slider-img img {
         width: 95%;
@@ -163,7 +163,7 @@
         display: block;
     }
     a.footer-link {
-        padding: 10px 0;
+        padding: 6px 0;
         display: block;
     }
     .content-left h1 {
@@ -179,5 +179,9 @@
         margin-left: 0;
         padding: 52px 28px;
         border-radius: 0px 64px;
+    }
+
+    nav.navigation {
+        padding: 12px 20px;
     }
 }
